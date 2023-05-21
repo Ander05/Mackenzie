@@ -1,0 +1,15 @@
+Interfaces, Protocolos e Módulos de Comunicação
+Interfaces de Comunicação
+USB: O Arduino UNO possui uma porta USB que permite a conexão com um computador para programação e comunicação serial.
+Ethernet: Para conexão à internet, é utilizado um módulo Ethernet que se conecta ao Arduino UNO por meio de uma interface SPI.
+Wi-Fi: Alternativamente, pode ser utilizado um módulo Wi-Fi para conectar o Arduino UNO à rede sem fio.
+Protocolos de Comunicação
+TCP/IP: O protocolo TCP/IP é utilizado para estabelecer a comunicação entre o Arduino e o servidor MQTT via rede local ou internet. Ele fornece a base para a transferência confiável de dados em pacotes.
+MQTT (Message Queuing Telemetry Transport): O protocolo MQTT é um protocolo leve de mensagens para comunicação de máquina para máquina. Ele é amplamente utilizado para sistemas de IoT e permite a troca eficiente de mensagens entre o Arduino e o servidor MQTT.
+Módulos de Comunicação
+Módulo Ethernet: Um exemplo de módulo Ethernet utilizado é o W5100, que permite ao Arduino se conectar à rede através de um cabo Ethernet.
+Módulo Wi-Fi: Um exemplo de módulo Wi-Fi utilizado é o ESP8266, que adiciona conectividade Wi-Fi ao Arduino, permitindo a comunicação sem fio com a rede local ou a internet.
+Integração MQTT
+Biblioteca MQTT: O projeto utiliza uma biblioteca MQTT específica para o Arduino, como a biblioteca "PubSubClient", que fornece as funções necessárias para a comunicação MQTT.
+Configuração MQTT: É necessário configurar o endereço IP do servidor MQTT, a porta de comunicação e, se aplicável, as credenciais de autenticação para se conectar ao servidor.
+Tópicos MQTT: Definem os canais de comunicação para publicar ou assinar mensagens. Devem ser definidos os tópicos relevantes para o projeto, como tópicos de sensores e atuadores.

@@ -1,0 +1,17 @@
+Hardware Utilizado
+Plataforma de Desenvolvimento
+Arduino UNO: A plataforma Arduino UNO foi escolhida como base para o projeto de automação residencial. Ela é uma placa de microcontrolador de código aberto, fácil de usar e programar, com recursos suficientes para suportar as funcionalidades do sistema.
+Sensores
+Sensor de temperatura e umidade: Utilizamos um sensor DHT11 para medir a temperatura e a umidade ambiente.
+Sensor de movimento: Utilizamos um sensor de movimento PIR (Passive Infrared) para detectar movimentos na área monitorada.
+Sensor de luminosidade: Utilizamos um sensor LDR (Light Dependent Resistor) para medir a intensidade de luz no ambiente.
+Atuadores
+LED: Utilizamos LEDs para demonstrar o controle de dispositivos e indicar status.
+Relé: Utilizamos um módulo de relé para controlar dispositivos de alta potência, como lâmpadas ou eletrodomésticos.
+Impressão 3D de Peças
+Para a montagem do projeto, foram criadas algumas peças utilizando impressão 3D. Essas peças foram projetadas no software CAD e impressas em uma impressora 3D. Elas incluem:
+Suportes e caixas para os componentes eletrônicos.
+Suportes para fixação dos sensores em locais estratégicos.
+Outras peças personalizadas para facilitar a montagem e organização do sistema.
+Medidas de Peças e Caixas
+Para garantir a precisão da montagem e acomodação adequada dos componentes, foram realizadas medidas precisas das peças e caixas utilizadas. Essas medidas incluem dimensões, furações e encaixes necessários para garantir o correto posicionamento dos componentes.
